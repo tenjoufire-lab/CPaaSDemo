@@ -5,7 +5,10 @@
 - Google Chrome のダウンロード: https://www.google.co.jp/chrome/
 - Azure Communication Services のサンプルリポジトリ: https://github.com/Azure-Samples/communication-services-web-calling-hero.git
 - Traffic Manager の検証で利用する HTML ファイル: https://github.com/tenjoufire-lab/CPaaSDemo/blob/main/SorryPage.html
+
+
 - 画像1: https://katsujimemail.blob.core.windows.net/hol/Microsoft_logo_(2012).svg
+- fluentui アイコン集： https://fluentsite.z22.web.core.windows.net/0.51.3/components/svg-icon/definition
 
 
 画像を追加する際に追加するべきコード
@@ -26,7 +29,7 @@ Header.tsx
 import { Separator, Pivot, PivotItem, Stack, Image, IImageStyles } from '@fluentui/react';
 
 2. 画像インポート
-import msLogoSVG from 'assets / Microsoft_logo_(2012).svg';
+import msLogoSVG from 'assets/Microsoft_logo_(2012).svg';
 
 3. スタイルのインポート
 import {
