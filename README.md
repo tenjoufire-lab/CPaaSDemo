@@ -12,6 +12,7 @@
 
 
 画像を追加する際に追加するべきコード
+
 Header.styles.ts
 
 export const imgStyle = mergeStyles({
@@ -25,13 +26,17 @@ export const imgStyle = mergeStyles({
 });
 
 Header.tsx
+
 1. fluentui 要素のインポート
+
 import { Separator, Pivot, PivotItem, Stack, Image, IImageStyles } from '@fluentui/react';
 
 2. 画像インポート
+
 import msLogoSVG from 'assets/Microsoft_logo_(2012).svg';
 
 3. スタイルのインポート
+
 import {
     headerContainer,
     pivotItemStyles,
@@ -44,6 +49,7 @@ import {
 } from './styles/Header.styles';
 
 4. 画像の大きさを指定するコードの追加
+
 const imageStyleProps: IImageStyles = {
     image: {
         height: '100%',
@@ -53,9 +59,11 @@ const imageStyleProps: IImageStyles = {
 };
 
 5. 画像読み込み
+
 const msLogoImageProps = { src: msLogoSVG.toString() };
 
 6. 画像埋め込み
+
 <Image
      alt="Microsoft Logo"
      className={imgStyle}
