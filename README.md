@@ -8,6 +8,7 @@
 
 
 - 画像1: https://katsujimemail.blob.core.windows.net/hol/Microsoft_logo_(2012).svg
+- 画像2: https://www.metawater.co.jp/assets/images/info/brand/img_brand_01.jpg
 - fluentui アイコン集： https://fluentsite.z22.web.core.windows.net/0.51.3/components/svg-icon/definition
 
 
