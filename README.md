@@ -12,6 +12,9 @@
 - fluentui アイコン集： https://fluentsite.z22.web.core.windows.net/0.51.3/components/svg-icon/definition
 
 
+- yoshimura-san へのリンク： https://yoshimura.azurewebsites.net/?groupId=c33e6d20-2f8b-11eb-972e-cb0af581071b
+
+
 画像を追加する際に追加するべきコード
 
 Header.styles.ts
